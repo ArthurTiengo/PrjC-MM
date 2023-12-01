@@ -1,0 +1,267 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: roboto;
+    flex-wrap: nowrap;
+}
+
+/*TOP*/
+
+.top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+}
+
+.logo{
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.search input{
+    width: 404px;
+    height: 24px;
+    padding: 20px;
+    border-radius: 2px;
+}
+
+.geral{
+    display: flex;
+}
+
+.service{
+    margin-right: 150px;
+}
+
+.service-img{
+    margin-left: -250px;
+    padding-right: 200px;
+}
+
+.whats{
+    margin-left: -8px;
+    padding-right: 40px;
+}
+
+.whats-img{
+    margin-left: -210px;
+    padding-right: 200px;
+}
+
+.welcome{
+    margin-right: 30px;
+    display: flex;
+}
+
+.img-geral{
+    margin-right: 2.5em;
+}
+
+/*Menu*/
+
+
+.menu ul{
+    background-color: #ffffff;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 34px ;
+}
+
+.menu-btn{
+    padding-left: 16px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-btn i{
+    font-size: 40px;
+    padding-top: -20px;
+}
+
+.menu-btn a{
+    margin-top: 10px;
+    text-decoration: none ;
+    font-family: sans-serif;
+    color: black;
+}
+
+/*INFORMAÇÕES*/
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.frete{
+    background-color: red;
+    width: 278px;
+    height: 172px;
+    color: white;
+    font-size: 26px;
+}
+
+
+
+.frete p{
+    font-size: 14px;
+    padding-top: 12%;
+}
+
+.delivery{
+    background-color: red;
+    width: 278px;
+    height: 172px;
+    color: white;
+    font-size: 26px;
+}
+
+.delivery p{
+    font-size: 14px;
+    padding-top: 22%;
+}
+
+.delivery h3{
+    font-size: 16px;
+}
+
+.budget{
+    background-color: red;
+    width: 278px;
+    height: 172px;
+    color: white;
+    font-size: 26px;
+    display: flex;
+}
+
+.app{
+    background-color: red;
+    width: 278px;
+    height: 172px;
+    color: white;
+    font-size: 26px
+}
+
+.news{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F9F1F1;
+    padding: 10px;
+}
+
+.news p{
+    width: 627px;
+    height: 83px;
+    color: #000;
+    text-align: center;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.primavera p{
+    color: #E43795;
+    width: 902px;
+    height: 207px;
+    text-align: center;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.produtos h2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.descricao{
+    display: flex;
+    justify-content: space-around;
+}
+
+.preco{
+    width: 160px;
+    height: 135px;
+    background-color: rgba(157, 151, 151, 0.20);
+}
+
+.preco img{
+    width: 119px;
+    height: 120px;  
+}
+
+.descricao h3{
+    color: #000 ;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.descricao p{
+    width: 155.033px;
+    height: 46.261px;
+    transform: rotate(-0.744deg);
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.arrow{
+    width: 26px;
+    height: 26px;
+    background: url(<path-to-image>), lightgray 50% / contain no-repeat;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.sobre {
+    background-color: #db3030;
+    padding: 26px;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+}
+
+.footer-info ul {
+    margin: 40px 0;
+    color: #ffffff;
+    list-style: none;
+    line-height: 160.687%
+}
+
+.footer-info li{
+    list-style: none;
+    padding-top: 20px;
+    color: #000000;
+}
+
