@@ -14,10 +14,11 @@
     background-color: red;
 }
 
-.logo{
+.logo a{
+    text-decoration: none;
     color: #FFF;
     text-align: center;
-    font-size: 28px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -121,6 +122,8 @@
 /*Produto*/
 
 .produto{
+    position: relative;
+    right: 50px;
     display: flex;
     justify-content: space-around;
 }
@@ -249,5 +252,86 @@
     background-color: #FB1C1C;
 }
 
+.preco{
+    display: flex;
+    width: 110px;
+    position: relative;
+    left: 250px;
+    height: 104px;
+    background-color: rgba(157, 151, 151, 0.20);
+}
 
 
+.preco2{
+    position: relative;
+    left: 80px;
+    width: 500px;
+    height: 104px;
+    background-color: rgba(157, 151, 151, 0.20);
+}
+
+
+.preco p{
+    color: #000;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.preco h3{
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+.texto{
+    position: relative;
+    font-size: 10px;
+    top: 60px;
+    left: 40px;
+}
+
+.preco img{
+    width: 106px;
+height: 103px;
+flex-shrink: 0;
+}
+
+.heart{
+    position: relative;
+    left: 86%;
+    top: -162%;
+    font-size: 16px;
+}
+
+/*footer*/
+
+.sobre {
+    background-color: #db3030;
+    padding: 26px;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+}
+
+.footer-info ul {
+    margin: 40px 0;
+    color: #ffffff;
+    list-style: none;
+    line-height: 160.687%
+}
+
+.footer-info li{
+    list-style: none;
+    padding-top: 20px;
+    color: #000000;
+}
